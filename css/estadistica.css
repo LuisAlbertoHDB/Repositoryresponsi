@@ -6,6 +6,14 @@
 #blog h3, h4 {
     text-align: center;
 }
+#blog h3{
+    font-size: 28px;
+    text-align: center;
+    background: #333;
+    color: #fff;
+
+}
+
 
 #blog article{
     margin: 15px;
@@ -15,4 +23,30 @@
 #blog img{
     width:100%;
     max-width: 280px;
+}
+/*Cambiando el diseño del blogg y de estadisticas*/
+@media (min-width:1024px){
+    #blog h4 {
+        font-size: 22px;
+    }
+    #blog h3 {
+        font-size: 28px;
+        background: #333;
+        color: #fff;
+        
+    }
+
+    #ceremonia{
+        background: #333;
+    }
+
+    #ceremonia h2{
+        font-size: 28px;
+        color: #fff;
+
+    }
+    #blog{
+        background: #fff;
+    }
+
 }

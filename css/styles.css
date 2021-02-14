@@ -12,6 +12,7 @@
 }
 body{
     font-family: 'Oswald', sans-serif;
+    background: rgb(234, 190, 63);
 }
 
 header{
@@ -39,7 +40,7 @@ section{
     margin-bottom: 25px;
 }
 
-#bienvenidos{
+#ceremonia{
     text-align: center;
 }
 
@@ -71,6 +72,12 @@ footer .container{
      .container{
          width: 1000px;
      }
+     header{
+         height: 60px;
+     }
+     #ceremonia{
+         height: 370px;
+     }
  }
 
  @media (min-width:768px){
@@ -80,6 +87,22 @@ footer .container{
 
      footer .container{
          justify-content: space-between;     
+    }
+    /*RETIRAMOS LOS MARGENES PARA NO DISTORCIONAR LOS ESPACIOS*/
+    footer{
+        position:relative;
+        background:#fff;
+        bottom:0px;
+    }
+    /*RETIRAMOS LOS MARGENES PARA NO DISTORCIONAR LOS ESPACIOS*/
+    #info{
+        position:relative;
+        bottom:0px;
+        margin-bottom: 0px;
+    }
+    /*CLASE COPY ALINEANDO AL CENTRO*/
+    .copy{
+        margin-top: auto;
     }
 
     
